@@ -1,0 +1,36 @@
+{
+	"name": "log-tracker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"up": "yarn upgrade-interactive --latest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.4",
+		"mongodb": "^4.1.2",
+		"next": "^11.1.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"swr": "^1.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^16.9.2",
+		"@types/react": "^17.0.21",
+		"@types/react-dom": "^17.0.9",
+		"@typescript-eslint/eslint-plugin": "^4.31.1",
+		"@typescript-eslint/parser": "^4.31.1",
+		"eslint": "^7.32.0",
+		"eslint-config-next": "^11.1.2",
+		"eslint-plugin-react": "^7.25.2",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"sass": "^1.41.1",
+		"typescript": "^4.4.3"
+	}
+}

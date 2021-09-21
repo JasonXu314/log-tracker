@@ -1,0 +1,29 @@
+.main {
+	padding: 0.25em 0.5em;
+	border: 1px solid black;
+	background: #cccccc;
+	border-radius: 2px;
+	margin: 0.5em 0;
+
+	.control-bar {
+		cursor: pointer;
+	}
+
+	.short {
+		margin-left: 0.5em;
+	}
+
+	.details {
+		h4,
+		pre {
+			margin: 0.25em 0;
+		}
+
+		.dump {
+			background: #eeeeee;
+			width: fit-content;
+			padding: 0.25em;
+			border-radius: 4px;
+		}
+	}
+}
